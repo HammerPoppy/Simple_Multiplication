@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Simple multiplication</string>
+    <string name="math_sign_star">*</string>
+    <string name="answer_hint">X</string>
+    <string name="answer_button">OK</string>
+    <string name="math_equal">=</string>
+</resources>

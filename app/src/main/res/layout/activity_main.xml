@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="hammak.simplemultiplication.MainActivity"
+    android:orientation="vertical"
+    android:baselineAligned="false"
+    android:layout_weight="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:elevation="0dp">
+
+        <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvTaskL"
+                android:layout_width="match_parent"
+                android:gravity="end|center_vertical"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                style="@style/MyAwesomeFont"
+                android:layout_height="match_parent"
+                android:elevation="1dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:text="@string/math_sign_star"
+            android:layout_height="match_parent"
+            android:id="@+id/tvMathSign"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            style="@style/MyAwesomeFont"
+            android:gravity="center"
+            android:elevation="1dp" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_height="match_parent"
+                android:id="@+id/tvTaskR"
+                android:layout_width="match_parent"
+                android:height="120dp"
+                android:gravity="start|fill_vertical"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                style="@style/MyAwesomeFont"
+                android:elevation="1dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:text="@string/math_equal"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textAppearance="@style/MyAwesomeFont"
+            android:gravity="center"
+            android:elevation="1dp" />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/etAnswer"
+            android:textAppearance="@style/MyAwesomeFont"
+            style="@style/MyAwesomeFont"
+            android:cursorVisible="false"
+            android:gravity="center"
+            android:maxLength="2"
+            android:layout_weight="2"
+            android:hint="@string/answer_hint"
+            android:elevation="1dp" />
+
+    </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="3dp"
+            android:background="@color/colorPrimary" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvCounter"
+                android:textAppearance="@style/MyAwesomeFont"
+                android:gravity="center_horizontal"
+                android:background="@color/counter0" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimary" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/MyAwesomeFont"
+                android:layout_weight="1"
+                android:id="@+id/tvUserAnswer"
+                android:gravity="center" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimary" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/MyAwesomeFont"
+                android:layout_weight="1"
+                android:id="@+id/tvRightAnswer"
+                android:gravity="center" />
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="3dp"
+            android:background="@color/colorPrimary" /></LinearLayout>
+
+    <Button
+        android:text="@string/answer_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bAnswer"
+        android:elevation="0dp"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        style="@style/MyAwesomeButton" />
+
+</LinearLayout>

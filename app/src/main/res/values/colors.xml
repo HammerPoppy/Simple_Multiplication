@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#E64A19</color>
+    <color name="colorPrimaryDark">#E64A19</color>
+    <color name="colorAccent">#15BD8D</color>
+
+    <color name="counter0">#FFECB3</color>
+    <color name="counter5">#FFE0B2</color>
+    <color name="counter10">#FFE082</color>
+    <color name="counter12">#FFCC80</color>
+    <color name="counter13">#FFD54F</color>
+    <color name="counter20">#FFB74D</color>
+    <color name="counter33">#FFCA28</color>
+    <color name="counter50">#FFC107</color>
+    <color name="counter75">#FF9800</color>
+    <color name="counter79">#FFB300</color>  число Слевина
+    <color name="counter100">#FB8C00</color>
+    <color name="counter255">#FFA000</color>
+    <color name="counter500">#F57C00</color>
+    <color name="counter666">#DD2C00</color>
+    <color name="counter1618">#FFD700</color> золотое сечение 1,618
+    <color name="counter2147483647">#FF8F00</color> наибольшее значение int
+</resources>
