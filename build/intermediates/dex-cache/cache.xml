@@ -39,21 +39,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Jakuzi\.AndroidStudio2.1\AndroidStudioProjects\StandartMultiplying\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="d9628cfe3997c1981bfb07ad6c1fde2976519ded">
-        <dex dex="C:\Users\Jakuzi\.AndroidStudio2.1\AndroidStudioProjects\StandartMultiplying\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_e90bd3cfc267a618b7187b58b24c020e00d6f71e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\Jakuzi\.AndroidStudio2.1\AndroidStudioProjects\StandartMultiplying\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
         sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
         <dex dex="C:\Users\Jakuzi\.AndroidStudio2.1\AndroidStudioProjects\StandartMultiplying\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.1.0_d8bbe6bf2faa22fbf65e2d957df2646c778ffcbc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Jakuzi\.AndroidStudio2.1\AndroidStudioProjects\StandartMultiplying\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d9628cfe3997c1981bfb07ad6c1fde2976519ded">
+        <dex dex="C:\Users\Jakuzi\.AndroidStudio2.1\AndroidStudioProjects\StandartMultiplying\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_e90bd3cfc267a618b7187b58b24c020e00d6f71e\classes.dex" />
     </item>
     <item
         is-multidex="true"
