@@ -3,6 +3,7 @@ package hammak.simplemultiplication;
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.SharedPreferences;
+import android.os.Build;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -97,7 +98,11 @@ public class MainActivity extends AppCompatActivity implements android.view.View
     public void onClick(View v) {
         switch(v.getId()){
             case R.id.bAnswer:
-                if (Objects.equals(etAnswer.getText().toString(), ""))
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
+                    if (Objects.equals(etAnswer.getText().toString(), ""))
+                        break;
+                }
+                else if (etAnswer.getText().toString() == "")
                     break;
 
                 // Gets an answer and sets it to tvUserAnswer, also sets right answer to
