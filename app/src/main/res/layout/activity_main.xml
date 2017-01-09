@@ -76,7 +76,8 @@
             android:gravity="center"
             android:maxLength="2"
             android:layout_weight="2"
-            android:hint="@string/answer_hint" />
+            android:hint="@string/answer_hint"
+            android:digits="0123456789" />
 
     </LinearLayout>
 

@@ -4,7 +4,7 @@ apply plugin: 'com.android.application'
 android {
     signingConfigs {
         config {
-            keyAlias 'MyKeyStore'
+            keyAlias 'MyAndroidKey'
             keyPassword 'Key16777216SJ'
             storeFile file('C:/Users/Jakuzi/.AndroidStudio2.1/keystore/keystore.jks')
             storePassword 'KS16777216SJ'
@@ -24,6 +24,7 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.config
         }
     }
 }
