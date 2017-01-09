@@ -112,12 +112,19 @@
 
         </LinearLayout>
 
-    <Button
-        android:text="@string/answer_button"
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/bAnswer"
-        android:textAppearance="@style/TextAppearance.AppCompat"
-        style="@style/MyAwesomeButton" />
+        android:layout_height="match_parent">
+
+        <Button
+            android:text="@string/answer_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bAnswer"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            style="@style/MyAwesomeButton"
+            android:layout_alignParentBottom="true" />
+
+    </RelativeLayout>
 
 </LinearLayout>
